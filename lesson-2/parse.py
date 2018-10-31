@@ -5,9 +5,23 @@ for file in os.listdir('./data'):
     with open('./data/{}'.format(file)) as fh:
         data += fh.readlines()
 
-salaries = []
+salaries = {}
 for line in data:
-    date, name, gendre, salary, city = line.split(',')
-    salaries.append(int(salary))
+    date, name, gender, salary, city = line.split(',')
 
-print(max(salaries), min(salaries), sum(salaries) / len(salaries))
+    city = city.strip()
+    gender = gender.strip().upper()
+
+    if city not in salaries:
+        salaries[city] = {}
+
+    if gender not in salaries[city]:
+        salaries[city][gender] = []
+
+    salaries[city][gender].append(int(salary))
+
+for city, value in salaries.items():
+    print(city)
+    for k, v in value.items():
+        print(k)
+        print(max(v), min(v), sum(v) / len(v))
