@@ -1,9 +1,12 @@
 div {
     min-height: 50px;
     text-align: center;
-    border: 1px solid silver;
+    /*border: 1px solid silver;*/
 }
 
+.bg {
+    background-color: #71dd8a;
+}
 .row {
     /*background-color: #71dd8a;*/
 }
