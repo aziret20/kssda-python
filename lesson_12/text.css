@@ -1,0 +1,15 @@
+body{
+    /*font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;*/
+    font-family: "Courier New";
+    font-size: 26px;
+    /*font-weight: bold;*/
+    color: #477AD9;
+}
+.text-bold{
+    font-weight: bold;
+    font-style: italic;
+
+}
+.decor{
+   text-decoration: underline;
+}

@@ -1,0 +1,8 @@
+body{
+    height: 600px;
+    background-color: #71dd8a;
+    background-image: url('./flash.png'), url('./flash.png');
+    background-repeat: repeat-y, repeat-x;
+    background-position: center, center;
+    background-size: 400px, 100px;
+}
