@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(50,50,50);
+}
+
+div{
+    background-color: rgb(140,140,140);
+    border: 7px solid rgb(70,70,70);
+
+}
+
+h1{
+    text-align:center;
+    color: rgb(30,30,30);
+    margin: 0% 0% 10% 0%;
+
+}
+
+span{
+    vertical-align: 60px;
+    padding: 0% 0% 0% 5%;
+}
+
+.f_span,.s_span,.t_span {
+    padding: 5% 0% 0% 0%;
+    margin: 0% 9% ;
+    border: 6px solid rgb(220,220,220);
+}
+
+a{
+    font-size: 180%;
+    color: rgb(3,3,100);
+}
+
+.back{
+    font-size: 180%;
+    color: rgb(223,223,200);
+}
+
+
+a:active{
+    font-weight: bolder;
+}
+
+a:hover{
+    font-style: italic;
+    text-decoration: none;
+    color:black;
+}
+
+a:visited{
+    color: rgb(60,10,225);
+}
+
+img{
+    margin: 3%;
+    border: 10px solid grey;
+    height: auto;
+    width: auto;
+    max-width: 440px;
+    max-height: 440px;
+
+}
