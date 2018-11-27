@@ -1,8 +1,5 @@
 # kssda-python
+ali bilalov
 python2018
-
-
-
-
-
 sjkfdfshfadkjsahsfhfdlhfdhdhhfdfhhfhffh
+lakjsdfhlakjsdfhklasjdfhlaksdjfhklasjdfh
