@@ -1,4 +1,4 @@
 # kssda-python
 
 
-ali mukhamed
+ali bilalov
