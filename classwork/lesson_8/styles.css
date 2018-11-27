@@ -1,0 +1,29 @@
+
+div {
+    color: red;
+    font-size: 24px
+}
+
+div {
+    color: grey;
+}
+
+.laputa {
+    color: blue;
+}
+
+.laputa div {
+    color: brown;
+}
+
+#totoro {
+    color: green;
+}
+
+#totoro > .laputa > div {
+    color: greenyellow;
+}
+
+/*#totoro div{*/
+/*color: blueviolet;*/
+/*}*/
