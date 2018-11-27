@@ -1,5 +1,4 @@
-div{
-}
+
 .logo{
     margin-left: 20px;
     float: right;
@@ -28,15 +27,15 @@ A:link{
     width: 200px;
     float:left;
     border-right: 3px solid grey;
+    margin-right: 5px;
 }
-.main{
-    float: right;
-    width: 83%;
 }
-.text{
-    font-sixe: 20px Arial;
-    width: 70%;
+.h4{
+    font-size: 20px;
+    font-family: Arial italic;
+    width: 800px;
+    float: none;
 }
 .image{
-    margin-top: -115px;
+    float: right;
 }
