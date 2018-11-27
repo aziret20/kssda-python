@@ -1,0 +1,16 @@
+div {
+    min-height: 50px;
+    text-align: center;
+    /*border: 1px solid silver;*/
+}
+
+.bg {
+    background-color: #71dd8a;
+}
+.row {
+    /*background-color: #71dd8a;*/
+}
+
+.col {
+    /*background-color: rgba(0, 100, 235, 0.44);*/
+}

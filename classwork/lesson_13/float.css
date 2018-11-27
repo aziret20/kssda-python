@@ -1,0 +1,27 @@
+.main {
+    margin: 40px auto;
+    height: 300px;
+    width: 800px;
+    border: 1px solid blue;
+}
+
+.green, .red {
+    width: 50%;
+    height: 50px;
+}
+
+.red {
+    /*border: 1px solid red;*/
+    background-color: red;
+    float: left;
+}
+
+.green {
+    /*border: 1px solid green;*/
+    background-color: green;
+    float: left;
+    height: 300px;
+    background-image: url('http://ts.kg/posters/zhyoltyi_glaz_tigra.png');
+    background-repeat: no-repeat;
+    padding: 1px;
+}
