@@ -3,7 +3,7 @@ import time
 
 start = time.time()
 
-# Open file
+# Open file test
 with open('data.csv') as fh:
     lines = fh.readlines()
 
