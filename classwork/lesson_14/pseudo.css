@@ -1,0 +1,50 @@
+body {
+    font-size: 24px;
+}
+
+.main {
+    width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    border: 1px solid red;
+}
+
+a:link {
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4d004d;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+.main a:first-child {
+    color: green;
+}
+
+.main a:last-child {
+    color: purple;
+}
+
+.main a:nth-child(2) {
+    color: black;
+}
+
+.main:first-letter {
+    font-size: 48px;
+}
+
+input:focus {
+    color: #6f42c1;
+}
+
+textarea:focus {
+    color: #6f42c1;
+
+}
