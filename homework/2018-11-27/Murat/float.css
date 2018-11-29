@@ -1,0 +1,31 @@
+.main{
+    margin: 40px auto;
+    height: 1500px;
+    width: 1000px;
+    border: 1px solid rgb(95, 25, 226);
+}
+
+
+/*uyiuyiuyiy*/
+.green, .red, .blue{
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+.green{
+    background-color:  rgb(102, 247, 102);
+    float: left;
+    height: 1500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.red{
+    background-color:rgb(227, 255, 125);
+    float: left;
+    height: 1500px;
+}
+.blue{
+    background-color: rgb(198, 198, 243);
+    float: left;
+    height: 1500px;
+}
