@@ -1,0 +1,44 @@
+.main{
+    margin: 15px auto;
+    height: 300px;
+    width: 95%;
+    border: 1px solid #FF0000;
+}
+
+.home{
+  background-color:;
+  color: black ;
+  border: 5px solid black;
+  font-size: 30px;
+  width: 350px;
+  margin: 25px;
+  float: left;
+}
+
+.home:hover{
+  border: 8px solid #F300FF;
+}
+.blog{
+  background-color:var(--red);
+  color: black;
+  border: 5px solid black;
+  font-size: 30px;
+  width: 350px;;
+  margin: 25px;
+  float: left;
+}
+.blog:hover{
+  border: 8px solid #FF004C;
+}
+.gallery{
+  background-color:;
+  color: #530273;
+  border: 5px solid black;
+  font-size: 30px;
+  width: 350px;;
+  margin: 25px;
+  float: left;
+}
+.gallery:hover{
+  border: 8px solid #0043FF;
+}
