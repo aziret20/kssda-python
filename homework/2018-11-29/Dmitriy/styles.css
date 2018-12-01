@@ -1,0 +1,37 @@
+body {
+    font-size: 24px;
+}
+
+.main {
+    width: 800px;
+    margin: 40px auto;
+
+}
+
+a {
+    border: 1px solid red;
+    display: inline-block;
+    height: 60px;
+    width: 130px;
+    text-decoration: none;
+    line-height: 85px;
+    vertical-align: bottom;
+
+    padding: 0px 10px;
+    position: relative;
+}
+
+a:hover {
+    border: 1px solid blue;
+}
+
+a:active {
+    border: 1px solid green;
+}
+
+a span {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    line-height: normal;
+}
